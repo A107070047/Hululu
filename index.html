@@ -11,7 +11,6 @@
   <title>Landing Page - Start Bootstrap Theme</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -21,6 +20,12 @@
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="css/new 1.css" rel="stylesheet">
 
 </head>
@@ -101,15 +106,74 @@
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/貓戀人HONEY CAT主食罐1號餐(火雞鮭魚).jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>貓戀人HONEY CAT主食罐1號餐(火雞鮭魚)80g</h2>
-          <p class="lead mb-0">HM01 火雞鮭魚<br>原料及添加物：火雞肉、火雞湯、鮭魚、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
-         <br>營養成分(每100公克含量)：熱量107 Kcal、水分78％以下、粗蛋白14.7％以上、粗脂肪4.5％以上、粗纖維0.5％以下、灰分1％以下、磷0.1％以上、鈣0.1％以上、鎂0.02％以上</p>
+          <h2>貓戀人HONEY CAT主食罐1號餐(火雞鮭魚)</h2>
+		  <p class="lead mb-0">HM01 火雞鮭魚</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal01">
+             原料及添加物
+          </button>
+		  
+		  <!-- The Modal -->
+          <div class="modal" id="myModal01">
+		    <div class="modal-dialog">
+			  <div class="modal-content">
+			    <!-- Modal Header -->
+                <div class="modal-header">
+                  <h1 class="modal-title">原料及添加物</h1>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+				<!-- Modal body -->
+                <div class="modal-body">
+				  <p>
+				      火雞肉、火雞湯、鮭魚、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
+ 				  </p>
+				</div>
+				
+				<!-- Modal footer -->
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <br><br><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal02">
+            營養成分 
+          </button>
+		  
+		  <!-- The Modal -->
+          <div class="modal" id="myModal02">
+		    <div class="modal-dialog">
+			  <div class="modal-content">
+			    <!-- Modal Header -->
+                <div class="modal-header">
+                  <h1 class="modal-title">營養成分</h1>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+				<!-- Modal body -->
+                <div class="modal-body">
+				  <p>
+				      火雞肉、火雞湯、鮭魚、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
+ 				  </p>
+				</div>
+				
+				<!-- Modal footer -->
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+			  </div>
+			</div>
+		  </div>
+      
+        
+        
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/貓戀人HONEY CAT主食罐2號餐(火雞鮪魚).jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>貓戀人HONEY CAT主食罐2號餐(火雞鮪魚)80g</h2>
+          <h2>貓戀人HONEY CAT主食罐2號餐(火雞鮪魚)</h2>
           <p class="lead mb-0">HM02 火雞鮪魚<br>原料及添加物：火雞肉、火雞湯、鮪魚、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
         <br>營養成分(每100公克含量)：熱量107 Kcal、水分78％以下、粗蛋白14.7％以上、粗脂肪4.5％以上、粗纖維0.5％以下、灰分1％以下、磷0.1％以上、鈣0.1％以上、鎂0.02％以上</p>
         </div>
@@ -117,7 +181,7 @@
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/貓戀人HONEY CAT主食罐3號餐(火雞雞肉).jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>貓戀人HONEY CAT主食罐3號餐(火雞雞肉)80g</h2>
+          <h2>貓戀人HONEY CAT主食罐3號餐(火雞雞肉)</h2>
           <p class="lead mb-0">HM03 火雞雞肉<br>原料及添加物：火雞肉、火雞湯、雞肉、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
         <br>營養成分(每100公克含量)：熱量108 Kcal、水分77％以下、粗蛋白14.9％以上、粗脂肪4.5％以上、粗纖維0.5％以下、灰分1％以下、磷0.1％以上、鈣0.1％以上、鎂0.02％以上</p>
         </div>
@@ -125,7 +189,7 @@
 	    <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/貓戀人HONEY CAT主食罐4號餐(火雞魴魚).jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>貓戀人HONEY CAT主食罐4號餐(火雞魴魚)80g</h2>
+          <h2>貓戀人HONEY CAT主食罐4號餐(火雞魴魚)</h2>
           <p class="lead mb-0">HM04 火雞魴魚<br>原料及添加物：火雞肉、火雞湯、魴魚、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
         <br>營養成分(每100公克含量)：熱量105 Kcal、水分78％以下、粗蛋白14.2％以上、粗脂肪4.5％以上、粗纖維0.5％以下、灰分1％以下、磷0.1％以上、鈣0.1％以上、鎂0.02％以上
 
@@ -135,7 +199,7 @@
 	  <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/貓戀人HONEY CAT主食罐5號餐(火雞肉).jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>貓戀人HONEY CAT主食罐5號餐(火雞肉)80g</h2>
+          <h2>貓戀人HONEY CAT主食罐5號餐(火雞肉)</h2>
           <p class="lead mb-0">HM05 火雞肉<br>原料及添加物：火雞肉、火雞湯、葛粉、魚油、牛磺酸、洋菜、碳酸鈣、絲蘭萃取物、維生素B群(維生素B1、維生素B2、維生素B6、維生素B12、菸鹼酸、葉酸、生物素、泛酸)、維生素A、維生素C、維生素D3、維生素K1、蔓越莓、維生素E
         <br>營養成分(每100公克含量)：熱量108 Kcal、水分77％以下、粗蛋白14.9％以上、粗脂肪4.5％以上、粗纖維0.5％以下、灰分1％以下、磷0.1％以上、鈣0.1％以上、鎂0.02％以上</p>
         </div>
@@ -152,7 +216,7 @@
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <img class="img-fluid rounded-circle mb-3" src="img/jessica.jpg" alt="">
             <h5>Jessica</h5>
-            <p class="font-weight-light mb-0">"What greater gift than the love of a cat.p>
+            <p class="font-weight-light mb-0">"What greater gift than the love of a cat."</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -179,7 +243,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          <h2 class="mb-4">Get our online discount right away!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
@@ -188,7 +252,7 @@
                 <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
               </div>
               <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Get it!</button>
               </div>
             </div>
           </form>
@@ -219,22 +283,16 @@
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="#">
+              <a href="https://www.facebook.com/pet.HoneyCat/?__xts__[0]=68.ARCYGOHkR9phj7CUacH267tDHSBf3J9iL_fr1otvDH8a_lhgdp8HiS0PUs81D-WeuGC13_B42piSF0hWnVWcJ0mN_IJmN02CyWm9eBfU5D9HQNeOr0zyRT0IQLmafTUgdZ_5pl8zpL2t8bGlZP4CDJpkwsU3xDs60ud9DeAYc-bT4H2ulbiLad3H2ubWcA6xHBfDFZqfS8S3bvLuhQSeOdHsQ2jenG6yez9l8NrrObDCk79ktnTt69LPKamQ0-dH0rb6o_wZrFJWAjezrDr1tYwZSFbao5QBg15NLwWttnelFRyw5wnS6_MNQomPelRvR5uh0h-HSYmarGtoLWc4AsyR367lyn8M3yQ">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.instagram.com/hululu_theragdoll/">
                 <i class="fab fa-instagram fa-2x fa-fw"></i>
               </a>
             </li>
@@ -243,10 +301,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
